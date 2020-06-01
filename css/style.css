@@ -48,8 +48,25 @@ body{
 
 .titles{
 font-family: 'Staatliches', cursive !important;
-color: #ffff;
+color: #ff2400;
 font-size: 100px;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+	 margin: 0 auto;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.drat {
+
+			font-family:'Roboto Mono',monospace!important;
+			color:#000000
+
 }
 
 .breadcrumb{

@@ -3,6 +3,29 @@
 .nav-item{
 	font-family:'Roboto Mono',monospace!important
 }
+.navbar-fixed-left {
+  width: 100px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+	margin-top: -80px;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 100px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 50px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: 0px;
+  margin-right: -200px;
+}
+
 body{
 	min-height:75rem;
 	padding-top:4.5rem;
@@ -13,6 +36,7 @@ body{
 	-o-background-size:cover
 }
 .jumbotron{
+	margin-top:-120px;
 	opacity:1;
 	background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)),url(../img/makati.jpg);
 	background-size:cover

@@ -24,7 +24,7 @@
 /* On using dropdown menu (To right shift popuped) */
 .navbar-fixed-left .navbar-nav > li > .dropdown-menu {
   margin-top: 0px;
-  margin-right: -200px;
+  margin-right: -100px;
 }
 /*wallpaper by Michelle Simpson*/
 body{
@@ -119,4 +119,10 @@ height:1000px;
 {
 padding-top:5px;
 margin-top:130px;
+}
+
+.footer .spoofs span{
+
+font-size: 25px;
+
 }

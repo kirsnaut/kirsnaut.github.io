@@ -75,9 +75,9 @@ font-size: 100px;
 }
 
 .carousel {
-  width:640px;
+  width:800px;
   height:360px;
-	 margin: 0 auto;
+	 margin: auto;
 }
 
 .carousel-caption {

@@ -142,7 +142,7 @@ font-size: 25px;
 	  //position: fixed;
 	  border-radius: 0;
 	  height: 100%;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
 	.jumbotron{
@@ -157,6 +157,6 @@ font-size: 25px;
 
 	font-family: 'Turret Road', cursive !important;
 	color: #ffff;
-	font-size: 30px;
+	font-size: 50px;
 	}
 }

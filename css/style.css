@@ -36,6 +36,7 @@ body{
 	background-size:cover;
 	background-repeat: no-repeat;
 	-o-background-size:cover;
+	z-index: -10;
 	height: 100%;
 }
 

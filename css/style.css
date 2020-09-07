@@ -142,7 +142,7 @@ font-size: 25px;
 	  //position: fixed;
 	  border-radius: 0;
 	  height: 100%;
-		margin-top: 20px;
+		margin-top: 40px;
 	}
 
 
@@ -152,13 +152,13 @@ font-size: 25px;
 	}
 
 	.navbar-fixed-left + .container {
-	  padding-left: 0;
+	  padding-left: 0px;
 	}
 
 	/* On using dropdown menu (To right shift popuped) */
 	.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
 	  margin-top: 0px;
-	  margin-right: 0;
+	  margin-right: 0px;
 	}
 	.jumbotron{
 	  margin-top:-10px;

@@ -158,7 +158,7 @@ font-size: 25px;
 	/* On using dropdown menu (To right shift popuped) */
 	.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
 	  margin-top: 0px;
-	  margin-right: -100px;
+	  margin-right: 0px;
 	}
 	.jumbotron{
 	  margin-top:-10px;

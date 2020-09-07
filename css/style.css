@@ -28,7 +28,8 @@
 }
 /*wallpaper by Michelle Simpson*/
 body{
-
+	min-height:75rem;
+	padding-top:3.0rem;
 	background:url(../img/bg.gif) no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -39,7 +40,7 @@ body{
 }
 
 .jumbotron{
-	/* /margin-top:-170px; */
+	margin-top:-170px;
 	//opacity:1;
 	//background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 	//background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)),url(../img/makati.jpg);

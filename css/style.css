@@ -77,6 +77,11 @@ font-size: 100px;
 .smallz{
 	font-size: 15px;
 }
+
+.blast{
+	padding-top: 275px;
+}
+
 .carousel {
   width:800px;
   height:360px;
@@ -128,4 +133,15 @@ margin-top:130px;
 
 font-size: 25px;
 
+}
+
+@media (max-width: 900px)
+{
+	.jumbotron{
+	  //margin-top:-10px;
+		//opacity:1;
+		//background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+		//background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)),url(../img/makati.jpg);
+		//background-size:cover
+	}
 }

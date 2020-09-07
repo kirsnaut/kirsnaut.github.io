@@ -79,7 +79,7 @@ font-size: 100px;
 }
 
 .blast{
-	padding-top: 275px;
+	padding-top: 310px;
 }
 
 .carousel {
@@ -145,8 +145,23 @@ font-size: 25px;
 		margin-top: 60px;
 	}
 
+
+	.navbar-fixed-left .navbar-nav > li {
+	  float: none;  /* Cancel default li float: left */
+	  width: 100px;
+	}
+
+	.navbar-fixed-left + .container {
+	  padding-left: 50px;
+	}
+
+	/* On using dropdown menu (To right shift popuped) */
+	.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+	  margin-top: 0px;
+	  margin-right: -100px;
+	}
 	.jumbotron{
-	  //margin-top:-10px;
+	  margin-top:-10px;
 		//opacity:1;
 		//background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 		//background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)),url(../img/makati.jpg);

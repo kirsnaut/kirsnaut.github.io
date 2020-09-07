@@ -139,29 +139,7 @@ font-size: 25px;
 
 @media (max-width: 900px)
 {
-	.navbar-fixed-left {
-	  width: 0;
-	  position: fixed;
-	  border-radius: 0;
-	  height: 100%;
-		margin-top: 50px;
-	}
-
-
-	.navbar-fixed-left .navbar-nav > li {
-	  float: none;  /* Cancel default li float: left */
-	  width: 100px;
-	}
-
-	.navbar-fixed-left + .container {
-	  padding-left: 50px;
-	}
-
-	/* On using dropdown menu (To right shift popuped) */
-	.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-	  margin-top: 0px;
-	  margin-right: 0px;
-	}
+	
 	.jumbotron{
 	  margin-top:-10px;
 		//opacity:1;

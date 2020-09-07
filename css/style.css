@@ -9,7 +9,6 @@
   position: fixed;
   border-radius: 0;
   height: 100%;
-//	margin-top: -20px;
 }
 
 .navbar-fixed-left .navbar-nav > li {
@@ -139,7 +138,7 @@ font-size: 25px;
 
 @media (max-width: 900px)
 {
-	
+
 	.jumbotron{
 	  margin-top:-10px;
 		//opacity:1;

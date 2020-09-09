@@ -147,6 +147,10 @@ font-size: 25px;
 		//background-size:cover
 	}
 
+	.navbar-brand{
+		margin-left: -7px;
+	}
+
 	.titles{
 
 	font-family: 'Turret Road', cursive !important;

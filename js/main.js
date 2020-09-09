@@ -18,3 +18,7 @@ $(window).on('resize', function() {
     }
     windowWidth = $(window).width();
 });
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});

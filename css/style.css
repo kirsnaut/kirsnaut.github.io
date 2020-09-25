@@ -27,6 +27,7 @@
 }
 /*wallpaper by Michelle Simpson*/
 body{
+	overflow: hidden;
 	min-height:75rem;
 	padding-top:3.0rem;
 	background:url(../img/bg.gif) no-repeat center center fixed;
@@ -139,6 +140,10 @@ font-size: 25px;
 @media (max-width: 900px)
 {
 
+	body{
+		overflow: auto;
+	}
+
 	.jumbotron{
 	  margin-top:-10px;
 		//opacity:1;
@@ -156,6 +161,10 @@ font-size: 25px;
 	font-family: 'Turret Road', cursive !important;
 	color: #ffff;
 	font-size: 50px;
+	}
+
+	.blast{
+		font-size: 13.5px;
 	}
 
 

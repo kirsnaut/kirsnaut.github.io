@@ -30,7 +30,8 @@ body{
 	overflow: hidden;
 	min-height:75rem;
 	padding-top:3.0rem;
-	background:url(../img/bg.gif) no-repeat center center fixed;
+	//background:url(../img/wpb.jpg) no-repeat center center fixed;
+	background:white;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	background-size:cover;
@@ -49,7 +50,7 @@ body{
 .jumbo_text{
 	font-family: 'Turret Road', cursive !important;
 	font-size:20px;
-	color:#fff
+	color:black
 }
 
 .navbar-brand{
@@ -58,7 +59,7 @@ body{
 }
 
 .fixed-top.scrolled {
-  background-color: #fff !important;
+  background-color: black !important;
   transition: background-color 200ms linear;
 }
 
@@ -72,7 +73,7 @@ body{
 .titles{
 
 font-family: 'Turret Road', cursive !important;
-color: #ffff;
+color: black;
 font-size: 100px;
 }
 
@@ -159,7 +160,7 @@ font-size: 25px;
 	.titles{
 
 	font-family: 'Turret Road', cursive !important;
-	color: #ffff;
+	color: black;
 	font-size: 50px;
 	}
 

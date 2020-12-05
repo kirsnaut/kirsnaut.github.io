@@ -42,7 +42,7 @@ body{
 }
 
 .jumbotron{
-	margin-top:-10px;
+	margin-top:-30px;
 	//opacity:1;
 	//background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 	//background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.5)),url(../img/makati.jpg);
@@ -76,6 +76,10 @@ body{
 font-family: 'Turret Road', cursive !important;
 color: black;
 font-size: 100px;
+}
+
+.proj_tit{
+	font-weight: 800;
 }
 
 .smallz{

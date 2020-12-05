@@ -85,7 +85,11 @@ font-size: 100px;
 .blast{
 	padding-top: 10px;
 }
-
+.proj_desc{
+	font-family:sans-serif;
+	margin-left:32px;
+	font-size: 17px;
+}
 .carousel {
   width:800px;
   height:360px;

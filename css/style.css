@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 .nav-item{
 	font-family: 'Turret Road', cursive !important;
 }
@@ -79,6 +80,7 @@ font-size: 100px;
 }
 
 .proj_tit{
+	font-family: 'Turret Road', cursive !important;
 	font-weight: 800;
 }
 
@@ -89,8 +91,8 @@ font-size: 100px;
 .blast{
 	padding-top: 10px;
 }
-.proj_desc{
-	font-family:sans-serif;
+.for_desc{
+	font-family: 'Roboto', cursive !important;
 	margin-left:32px;
 	font-size: 17px;
 }

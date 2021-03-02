@@ -39,3 +39,28 @@ $('.navbar-nav>li>a').on('click', function(){
     }
   }, interval);
 })();
+
+
+
+var quote = new Array();
+       quote[0] = ['"','Even a broke clock is right twice a day','"', ' — Kanye West'];
+       quote[1] = ['"',"Idle time is the devil's play.",'"', " — Mark Dayton"];
+       quote[2] = ['"',"Don't spend time beating on a wall, hoping to transform it into a door.",'"', " — Coco Chanel"];
+       quote[3] = ['"','Things do not happen. Things are made to happen.','"', ' — John F. Kennedy'];
+       quote[4] = ['"','Perception precedes reality.','"', ' — Andy Warhol'];
+       quote[5] = ['"','A man who wins, is a man who thinks he can.','"', ' — Roger Federer'];
+       quote[6] = ['"',"Nothing is impossible, the word itself says I'm possible.",'"', " — Audrey Hepburn"];
+
+
+       var qlen = quote.length;
+       var firstDate = new Date(2005,0,1);//start date (yyyy,m,d) - m=0=January, m=1=February
+       var today = new Date();//today
+       var dif = Math.floor((today-firstDate)/1000/60/60/24);//difference in days
+       while(dif>=qlen){//calculate the index of the quote of the day
+           dif=dif-qlen;//restart the array index if the difference is greater that the array's length
+       }
+
+       var todayQuote = quote[dif];
+
+       $('.ml12 span .letters').html(todayQuote);
+       onload = function(){document.getElementById('q').firstChild.data = todayQuote};

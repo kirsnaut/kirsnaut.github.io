@@ -20,7 +20,7 @@
   background-color: #d9534f;
   bottom:0;
   left:0;
-  opacity:0;
+  opacity: 0;
   pointer-events:none;
   position:fixed;
   right:0;
@@ -33,7 +33,10 @@ html.idle #overlay {
   opacity: .7;
   transition:opacity 2s ease-in-out;
 }
-
+.ml12
+{
+	margin-top: -40px;
+}
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */

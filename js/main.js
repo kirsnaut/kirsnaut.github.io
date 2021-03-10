@@ -64,3 +64,19 @@ var quote = new Array();
 
        $('.ml12 span .letters').html(todayQuote);
        onload = function(){document.getElementById('q').firstChild.data = todayQuote};
+
+window.addEventListener('load',
+ function() {
+   var win = $(this); //this = window
+   if (win.width()< 500) { $('#dog').removeClass('navbar-fixed-left'); }
+ }, false);
+
+$(window).on('resize', function(){
+          var win = $(this); //this = window
+          if (win.width()< 500) { $('#dog').removeClass('navbar-fixed-left'); }
+     });
+
+$(window).on('resize', function(){
+         var win = $(this); //this = window
+         if (win.width()> 500) { $('#dog').addClass('navbar-fixed-left'); }
+    });

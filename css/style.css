@@ -150,6 +150,10 @@ body{
 	text-decoration:none
 }
 
+.about_txt{
+	padding-top: 30px;
+}
+
 .titles{
 
 font-family: 'Turret Road', cursive !important;

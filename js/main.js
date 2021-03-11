@@ -49,7 +49,11 @@ var quote = new Array();
        quote[3] = ['"','Things do not happen. Things are made to happen.','"', ' — John F. Kennedy'];
        quote[4] = ['"','Perception precedes reality.','"', ' — Andy Warhol'];
        quote[5] = ['"','A man who wins, is a man who thinks he can.','"', ' — Roger Federer'];
-       quote[6] = ['"',"Nothing is impossible, the word itself says I'm possible.",'"', " — Audrey Hepburn"];
+       quote[6] = ['"',"You only live once, but if you do it right, once is enough.",'"', " — Mae West"];
+       quote[7] = ['"',"Nothing is impossible, the word itself says I'm possible.",'"', " — Audrey Hepburn"];
+       quote[8] = ['"',"All that we see or seem is but a dream within a dream.",'"', " — Edgar Allan Poe"];
+       quote[9] = ['"',"It isn't where you came from; it's where you're going that counts.",'"', " — Ella Fitzgerald"];
+       quote[10] = ['"',"Showing off is the fool's idea of glory.",'"', " — Bruce Lee"];
 
 
        var qlen = quote.length;

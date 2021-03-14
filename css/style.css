@@ -30,7 +30,7 @@
 }
 
 html.idle #overlay {
-  opacity: .9;
+  opacity: 1;
   transition:opacity 2s ease-in-out;
 }
 .ml12

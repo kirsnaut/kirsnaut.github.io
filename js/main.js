@@ -31,10 +31,14 @@ $('.navbar-nav>li>a').on('click', function(){
   window.onload = document.onmousemove = document.onkeypress = function() {
     idleCounter = 0;
     document.documentElement.classList.remove('idle');
+    document.getElementById('zzz').innerHTML = '';
+    $('#cat').addClass('dropdown-divider');
   };
   window.setInterval(function() {
     if (++idleCounter >= timeout) {
       document.documentElement.classList.add('idle');
+      document.getElementById("zzz").innerHTML="Zzz..";
+      $('#cat').removeClass('dropdown-divider');
       idleCounter = 0;
     }
   }, interval);

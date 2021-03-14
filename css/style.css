@@ -126,6 +126,15 @@ body{
   }
 }
 
+#zzz{
+	color: white;
+	font-family: 'Coming Soon', cursive !important;
+	font-size: 200px;
+	position:absolute;
+    bottom:0;
+    right:0;
+}
+
 .jumbo_text{
 	font-family: 'Coming Soon', cursive !important;
 	font-size:20px;

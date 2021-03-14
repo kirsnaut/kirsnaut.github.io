@@ -54,6 +54,8 @@ var quote = new Array();
        quote[8] = ['"',"All that we see or seem is but a dream within a dream.",'"', " — Edgar Allan Poe"];
        quote[9] = ['"',"It isn't where you came from; it's where you're going that counts.",'"', " — Ella Fitzgerald"];
        quote[10] = ['"',"Showing off is the fool's idea of glory.",'"', " — Bruce Lee"];
+       quote[11] = ['"',"Most good ideas are simple.",'"', " — Anonymous"];
+
 
 
        var qlen = quote.length;

@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
 .nav-item{
-	font-family: 'Turret Road', cursive !important;
+	font-family: 'Coming Soon', cursive !important;
 }
 .navbar-fixed-left {
   width: 100px;
@@ -18,7 +17,7 @@
 .nav-link{padding:15px 5px;transition:0.2s;}
 
 #overlay {
-  background-color: #d9534f;
+  background-color: black;
   bottom:0;
   left:0;
   opacity: 0;
@@ -31,7 +30,7 @@
 }
 
 html.idle #overlay {
-  opacity: .7;
+  opacity: .9;
   transition:opacity 2s ease-in-out;
 }
 .ml12
@@ -128,13 +127,13 @@ body{
 }
 
 .jumbo_text{
-	font-family: 'Turret Road', cursive !important;
+	font-family: 'Coming Soon', cursive !important;
 	font-size:20px;
 	color:black
 }
 
 .navbar-brand{
-	font-family:Staatliches,cursive!important;
+	font-family:'Pacifico',cursive!important;
 	font-size:20px!important
 }
 
@@ -156,17 +155,18 @@ body{
 
 .titles{
 
-font-family: 'Turret Road', cursive !important;
+font-family: 'Coming Soon', cursive !important;
 color: black;
 font-size: 100px;
 }
 
 .proj_tit{
-	font-family: 'Turret Road', cursive !important;
+	font-family: 'Coming Soon', cursive !important;
 	font-weight: 800;
 }
 
 .smallz{
+	font-family: 'Coming Soon', cursive !important;
 	font-size: 15px;
 }
 
@@ -175,7 +175,7 @@ font-size: 100px;
 }
 
 .for_desc{
-	font-family: 'Roboto', cursive !important;
+	font-family: 'Coming soon', cursive !important;
 	margin-left:32px;
 	font-size: 17px;
 }
@@ -253,7 +253,7 @@ font-size: 25px;
 
 	.titles{
 
-	font-family: 'Turret Road', cursive !important;
+	font-family: 'Coming Soon', cursive !important;
 	color: black;
 	font-size: 50px;
 	}

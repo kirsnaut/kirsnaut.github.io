@@ -24,6 +24,7 @@ $('.navbar-nav>li>a').on('click', function(){
 });
 
 
+//idle animation
 (function() {
   const interval = 1000;
   const timeout = 10;
@@ -37,7 +38,7 @@ $('.navbar-nav>li>a').on('click', function(){
   window.setInterval(function() {
     if (++idleCounter >= timeout) {
       document.documentElement.classList.add('idle');
-      document.getElementById("zzz").innerHTML="Zzz..";
+      document.getElementById("zzz").innerHTML=" &#x1F634;Zzz..";
       $('#cat').removeClass('dropdown-divider');
       idleCounter = 0;
     }
@@ -45,7 +46,7 @@ $('.navbar-nav>li>a').on('click', function(){
 })();
 
 
-
+//qoute of the day generator
 var quote = new Array();
        quote[0] = ['"','Even a broke clock is right twice a day','"', ' — Kanye West'];
        quote[1] = ['"',"Idle time is the devil's play.",'"', " — Mark Dayton"];
@@ -75,6 +76,7 @@ var quote = new Array();
        $('.ml12 span .letters').html(todayQuote);
        onload = function(){document.getElementById('q').firstChild.data = todayQuote};
 
+//adjust navbar position in mobile web view
 window.addEventListener('load',
  function() {
    var win = $(this); //this = window

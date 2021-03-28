@@ -188,6 +188,11 @@ font-size: 100px;
 	margin-left:32px;
 	font-size: 17px;
 }
+
+.for_desc > a{
+	font-weight: bold;
+}
+
 .carousel {
   width:800px;
   height:360px;

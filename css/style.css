@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+@font-face {
+  font-family: 'Neon';
+  src: URL('Neon.ttf') format('truetype');
+}
+
 .nav-item{
 	font-family: 'Roboto', cursive !important;
 }
@@ -144,7 +149,7 @@ body{
 }
 
 .navbar-brand{
-	font-family:'Roboto',cursive!important;
+	font-family:'Neon',cursive!important;
 	font-size:20px!important;
 	font-weight: bold;
 }

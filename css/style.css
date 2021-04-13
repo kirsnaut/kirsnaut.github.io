@@ -185,16 +185,18 @@ padding-bottom: 40px;
 }
 
 .smallz{
-	font-family: 'Robot', cursive !important;
+	font-family: 'Neon', cursive !important;
 	font-size: 15px;
 }
 
 .blaster{
+  font-weight: bold;
 	padding-top: 50px;
 }
 
 .for_desc{
 	font-family: 'Lato', cursive !important;
+  text-justify: inter-word;
 	margin-left:32px;
 	font-size: 17px;
 	padding-bottom: 30px;

@@ -23,44 +23,54 @@
 		body{
 			overflow:hidden;
 		}
-		@media (max-width: 900px)
-		{
-			#zzz{
-				font-size: 100px;
-			}
-		}
+		<style>
+				body {overflow: auto;}
+
+
+				@media (max-width: 900px)
+				{
+					.jumbotron{
+						margin-top: -10px;
+					}
+
+					.sticky-top{
+						position:static;
+						margin-top: -30px;
+					}
+
+				}
 
 	</style>
 
-    <nav class="navbar navbar-inverse navbar-fixed-left sticky-top navbar-expand-lg navbar-light">
-							<ul class="nav navbar-nav">
-              <a class="navbar-brand" href="\..">
-              <!--img src="img/logow3.png" width="35" height="35"-->
-              <i class="fas fa-cat"></i> Welcome! &nbsp;
-							<div id="cat" class="dropdown-divider"></div>
-              </a>
+	<nav id="dog" class="navbar navbar-inverse navbar-fixed-left sticky-top navbar-expand navbar-light">
+						<ul class="nav navbar-nav">
+						<a class="navbar-brand" href="\..">
+						<!--img src="img/logow3.png" width="35" height="35"-->
+						 Home
+						<div id="cat" class="dropdown-divider"></div>
+						</a>
 
-							<li class="nav-item active">
-								<a class="nav-link" href="repository">
-									Projects
-								</a>
+						<li class="nav-item active">
+							<a class="nav-link" href="repository">
+								Projects
+							</a>
 
-							</li>
-							<li class="nav-item active">
-								<a class="nav-link" href="about">
-									About
-								</a>
-							</li>
-							<li class="nav-item active">
-								<a class="nav-link" href="mailto:kapevidal@gmail.com">
-									Email Me
-								</a>
-							</li>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="about">
+								About
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="mailto:kapevidal@gmail.com">
+								Email Me
+							</a>
+						</li>
 
-            </ul>
-          </div>
+					</ul>
+				</div>
 
-        </nav>
+			</nav>
 
         <main role="main" class="container">
          <div class="jumbotron jumbo_text bg-transparent">

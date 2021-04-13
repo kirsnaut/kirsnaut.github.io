@@ -167,11 +167,13 @@ body{
 font-family: 'Coming Soon', cursive !important;
 color: black;
 font-size: 100px;
+padding-bottom: 40px;
 }
 
 .proj_tit{
 	font-family: 'Coming Soon', cursive !important;
 	font-weight: 800;
+	color: black;
 }
 
 .smallz{
@@ -187,6 +189,7 @@ font-size: 100px;
 	font-family: 'Coming soon', cursive !important;
 	margin-left:32px;
 	font-size: 17px;
+	padding-bottom: 30px;
 }
 
 .for_desc > a{

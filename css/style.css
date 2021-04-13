@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .nav-item{
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Roboto', cursive !important;
 }
 .navbar-fixed-left {
   width: 100px;
@@ -128,7 +130,7 @@ body{
 
 #zzz{
 	color: white;
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Roboto', cursive !important;
 	font-size: 200px;
 	position:absolute;
     bottom:0;
@@ -136,14 +138,15 @@ body{
 }
 
 .jumbo_text{
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Roboto', cursive !important;
 	font-size:20px;
 	color:black
 }
 
 .navbar-brand{
-	font-family:'Coming Soon',cursive!important;
-	font-size:20px!important
+	font-family:'Roboto',cursive!important;
+	font-size:20px!important;
+	font-weight: bold;
 }
 
 .fixed-top.scrolled {
@@ -164,20 +167,20 @@ body{
 
 .titles{
 
-font-family: 'Coming Soon', cursive !important;
+font-family: 'Roboto', cursive !important;
 color: black;
 font-size: 100px;
 padding-bottom: 40px;
 }
 
 .proj_tit{
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Roboto', cursive !important;
 	font-weight: 800;
 	color: black;
 }
 
 .smallz{
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Robot', cursive !important;
 	font-size: 15px;
 }
 
@@ -186,7 +189,7 @@ padding-bottom: 40px;
 }
 
 .for_desc{
-	font-family: 'Coming soon', cursive !important;
+	font-family: 'Lato', cursive !important;
 	margin-left:32px;
 	font-size: 17px;
 	padding-bottom: 30px;
@@ -270,7 +273,7 @@ font-size: 25px;
 
 	.titles{
 
-	font-family: 'Coming Soon', cursive !important;
+	font-family: 'Roboto', cursive !important;
 	color: black;
 	font-size: 50px;
 	}

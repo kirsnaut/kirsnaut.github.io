@@ -27,7 +27,7 @@ $('.navbar-nav>li>a').on('click', function(){
 //idle animation
 (function() {
   const interval = 1000;
-  const timeout = 10;
+  const timeout = 100;
   let idleCounter = 0;
   window.onload = document.onmousemove = document.onkeypress = function() {
     idleCounter = 0;
@@ -38,7 +38,7 @@ $('.navbar-nav>li>a').on('click', function(){
   window.setInterval(function() {
     if (++idleCounter >= timeout) {
       document.documentElement.classList.add('idle');
-      document.getElementById("zzz").innerHTML=" &#x1F634;Zzz..";
+      document.getElementById("zzz").innerHTML=" Zzz..";
       $('#cat').removeClass('dropdown-divider');
       idleCounter = 0;
     }

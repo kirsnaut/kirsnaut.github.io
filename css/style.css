@@ -197,9 +197,10 @@ padding-bottom: 40px;
 .for_desc{
 	font-family: 'Lato', cursive !important;
   text-justify: inter-word;
-	margin-left:32px;
+	margin-left:220px;
+  margin-right:220px;
 	font-size: 17px;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 .for_desc > a{

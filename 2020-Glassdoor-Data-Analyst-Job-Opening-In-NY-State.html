@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animation.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 	 </head>
 		<style>
 
@@ -45,6 +47,11 @@
 			.for_desc{
 				margin-left:0px;
 			  margin-right:0px;
+			}
+
+			.for_desc_bullet{
+				margin-left:0px;
+				margin-right:0px;
 			}
 
 			.headingz{
@@ -88,26 +95,27 @@
           </div>
         </nav>
 
+				<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
         <main role="main" class="container">
          <div class="jumbotron jumbo_text bg-transparent">
 						<h1 class="titles text-center"> 2020 Glassdoor Data Analyst Job Listings in NY State </h1>
 						<h1 class="subtitles text-center"> by Kirsten Pevidal </h1>
 						<h2 class = headingz> Context <h2>
-							<p class="for_desc">
-								Looking to start a career in Data Analytics but have no idea what sector or industry you should work with?
-							  As someone who wants to become a data analyst in NY, I am curious about how good is the job prospect in data analytics here in NYC.
-								<br><br>It would be nice if there is some sort of inforgraphics that can tell you which industries are thriving for data analytics
+							<p class="for_desc_proj">
+								Looking to start a career in Data Analytics but have no idea what sector or industry will be on-demand?
+							  As someone who wants to become a data analyst in NY, I am curious about the job prospect in data analytics here in NYC.
+								<br><br>It would be nice if there is some sort of "guide" that can help you decide which industries are thriving during the COVID19 pandemic
 								and how much you are expected to get paid for.
 								So, I decided to try making one as my first Data Analytics projects!
 							</p>
 
 							<h2 class = headingz> The Dataset <h2>
-								<p class="for_desc">
+								<p class="for_desc_proj">
 									I found a <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs">dataset</a> in Kaggle that contains scraped data of all Data Analyst Jobs published in Glassdoor for the year 2020.
 									This dataset is pretty interesting as it was scraped to help job seekers during the COVID19 Pandemic.
 
 									<br><br>Anyways, this dataset contains 2253 job listings from glassdoor.
-									I cleaned the data to only include the 345 job listings from NY State and trimmed some of the columns
+									I cleaned the data to only include the 345 job listings from NY State. I also manually cleaned some of the data I gathered and splitted some of the columns
 									in order to have the following:
 									 <ul class="for_desc_bullet">
 											  <li>Job Title</li>
@@ -120,20 +128,52 @@
 									</ul>
 								</p>
 
-							<h2 class = headingz> Top Industries Per Job Listing <h2>
-							<p class="for_desc"></p>
+						  <h2 class = headingz> What To Look At? <h2>
+							<p class="for_desc_proj"> To determine the best options we have, I am going to check for the <a class="font-weight-bold">top industries and sectors in job listings and the salary distributions</a>.
+								It would be a good idea too to summarize the <a class="font-weight-bold">ratings</a>, <a class="font-weight-bold">company size</a>, and <a class="font-weight-bold">location</a> of each job listings.
+							</p>
+
+							<h2 class = headingz> Job Listing Distribution Per Industry <h2>
+							<p class="for_desc_proj">To be added.</p>
 
 
-							<img src="img/project_image/Top_5_Industries_Per_Job_Opening.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc"> Analysis of Data Analyst job opening dataset scraped in Glassdoor created.
-								<br>Purpose: Determine the top sectors & industries in NY State to apply for a Data Analyst role.
-								<br>Conclusion: A lot of job openings on the Information Technology, Business Services, Healthcare sectors. Top industries are Staffing & Outsourcing, IT Services, and Healthcare Services & Hospitals.
-              </p>
+							<img src="img/project_image/Top_5_Industries_Per_Job_Listing.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+							<p class="for_desc_proj text-center"> For the Entire Year Of 2020
+							</p>
+
+							<h2 class = headingz> Salary Distribution <h2>
+							<p class="for_desc_proj">To be added.</p>
               <img src="img/project_image/Salary_Per_Top_Industry.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac efficitur nisl. Nullam posuere ante eu rhoncus tempus. Curabitur sed tortor eu purus pellentesque porta id vitae nulla. Vivamus metus velit, egestas quis leo vulputate, dictum porttitor felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac orci mauris. Nam malesuada eros vel pulvinar rhoncus. Sed vel lacus nisl. Maecenas vestibulum varius libero at feugiat. Class
+							<p class="for_desc_proj">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac efficitur nisl.
+								Nullam posuere ante eu rhoncus tempus. Curabitur sed tortor eu purus pellentesque porta id vitae nulla.
+								Vivamus metus velit, egestas quis leo vulputate, dictum porttitor felis.
+								Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+								Donec ac orci mauris. Nam malesuada eros vel pulvinar rhoncus. Sed vel lacus nisl.
+								Maecenas vestibulum varius libero at feugiat. Class
 								<br>aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 							</p>
+
+							<h2 class = headingz> Ratings <h2>
+							<p class="for_desc_proj"> The ratings may not be up-to-date but it is still interesting to see how companies in the top industries do.
+							Here, we can see that the Staffing & Outsourcing industry has the highest mean rating.
+						  </p>
+							<img src="img/project_image/Rating.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+
+							<p class="for_desc_proj"> Overall, the most important information here is the average rating.
+							<br> Keep in mind: Companies constantly plant positive reviews of their own company to improve overall ratings.
+						  </p>
+
+							<h2 class = headingz> Locations <h2>
+							<p class="for_desc_proj">90% of the job listings are in Manhattan (New York, NY). I do not have the data to determine which listings offers WFH (work-from-home). That will be a good thing to consider for further studies since that 2020 is the year of WFH. </p>
+
+							<h2 class = headingz> Company Size <h2>
+							<p class="for_desc_proj">To be added.</p>
+
+							<h2 class = headingz> Final Thoughts <h2>
+							<p class="for_desc_proj">As this is my first data analytic project, there are couple of things to improve on and some interesting topics that I uncovered for further studies.</p></p>
+
+
 							<h4 class="text-center"> ✽ Appendix </h4>
 							<p class="text-center" class="proj_tit"> <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing"> Google Sheet link that details the analysis </a></p>
 							<p class="text-center" class="proj_tit"> <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs"> Kaggle Dataset used for this analysis </a></p>

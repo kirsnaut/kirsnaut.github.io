@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Cyclistic Bike Sharing</title>
+      <meta charset="utf-8">
+      <meta name="author" content="kirsnaut">
+      <meta name="description" content="Personal Website">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+      <link rel="manifest" href="icon/site.webmanifest">
+      <link rel="stylesheet" type="text/css" href="css/project.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+   </head>
+   <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="\..">Kirsnaut</a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                  About
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://github.com/kirsnaut" class="text-dark"> <span class="fab fa-github-alt fa-sm"></span> Github</a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://www.linkedin.com/in/kirsten-pevidal-121421129/" class="text-dark"><span class="fab fa-linkedin fa-sm"></span> Linkedin</a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://twitter.com/kapevidal" class="text-dark"><span class="fab fa-twitter fa-sm"></span> Twitter</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <div class=container>
+         <h1 class="titles text-center"> Cyclistic Bike Sharing </h1>
+         <h1 class="subtitles text-center"> (Updated: 2021-05-08) by Kirsten Pevidal </h1>
+         <h2 class = headingz>
+         Context
+         <h2>
+         <p class="for_desc_proj">
+           In 2016, Cyclistic launched a successful bike-share oering. Since then, the program has grown to a fleet of 5,824 bicycles that
+            are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and
+            returned to any other station in the system anytime.
+            <br><br>
+            Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One
+            approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and
+            annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who
+            purchase annual memberships are Cyclistic members.
+            <br><br>
+            Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the
+            pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be
+            key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very
+            good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and
+            have chosen Cyclistic for their mobility needs.
+            <br><br>
+            Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do
+            that, however, the marketing analyst team needs to better understand how annual members and casual riders dier, why casual
+            riders would buy a membership, and how digital media could aect their marketing tactics. Moreno and her team are interested in
+            analyzing the Cyclistic historical bike trip data to identify trends.
+         </p>
+         <h2 class = headingz>
+            Business Task
+         <h2>
+         <p class="for_desc_proj">
+            How do annual members and casual riders use Cyclistic bikes differently?
+         </p>
+         <h2 class = headingz>
+         The Dataset
+         <h2>
+         <p class="for_desc_proj">
+           You will use Cyclistic’s historical trip data to analyze and identify trends.
+           Download the previous 12 months of Cyclistic trip data here.
+           (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the
+           datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate
+           International Inc. under this license.) T
+           <br><br>
+           This is public data that you can use to explore how different customer types are using
+           Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means
+           that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service
+           area or if they have purchased multiple single passes.
+         <ul class="for_desc_bullet">
+            <li>Ride ID</li>
+            <li>Rideable Type (Bike Type)</li>
+            <li>Trip Duration (Ride Length)</li>
+            <li>Member Type</li>
+            <li>Date (day, month, year) create column to aggregate</li>
+         </ul>
+         </p>
+         <h2 class = headingz>
+         Data Cleaning
+         <h2>
+         <p class="for_desc_proj">
+         These are the data cleaning techniques I used to produce the cleaned the dataset.
+           <ul class="for_desc_bullet">
+           <li>Perform Data Cleaning Using Rstudio</li>
+           <li>Rename columns for consistency and to make them easier to understand.</li>
+           <li>Make sure all values are unique, removing duplicate values if necessary.</li>
+           <li>Merge all data frames into one whole dataframe</li>
+           <li>Make sure dataframe is consistent and clean</li>
+           <li>I use Rstudio and I use tidyverse lubridate & ggplot</li>
+           <li>Make sure the Member_casual column only has two values: member or casual, so we reassign cells to desired values.</li>
+           <li>Create ride_length column as well as date,year,month columns for additional opportunities to aggregate data</li>
+           <li>Make sure columns are in the correct data type so you can stack them together later.</li>
+           <li>Remove unwanted columns.</li>
+           <li>Create Csv file of summary of analysis</li>
+           </ul>
+         </p>
+         <p class="for_desc_proj">
+          An R markdown that demonstrates the step-by-step process of data cleaning conducted is also available <a href="Cyclistic-R-Markdown">here</a>.
+         </p>
+         <h2 class = headingz>
+         The Analysis
+         <h2>
+         <p class="for_desc_proj">
+         Overall, there are more annual members ride than casual users ride (1.9million vs. 1.3million). </p>
+         <img src="img/project_image/Cyclistic/number_of_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">There are more casual user rides in the weekend and more member rides in the weekday. There is nothing really important to deduce in this information.</p>
+         <img src="img/project_image/Cyclistic/daily_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">
+         However, looking at the duration per day of the week, an emerging trend can be seen. We can see that casual riders use Cyclistic bikes longer than the annual members.
+         </p>
+         <img src="img/project_image/Cyclistic/daily_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">
+         This pattern can be even seen by looking at the monthly average ride duration.
+         </p>
+         <img src="img/project_image/Cyclistic/monthly_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">
+         Another important thing I notice is the pattern I see at the monthly total rides. There is a very noticeable spike around July until Spetember, during summer.
+         </p>
+         <img src="img/project_image/Cyclistic/monthly_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <h2 class = headingz>
+         Final Thoughts
+         <h2>
+         <p class="for_desc_proj">
+         All things considered, I managed to come up with three effective and efficient suggestions that may help Cyclistic convert casual users into annual memberships.
+         <br><br>Create reward system based on ride durations for annual members.
+
+         <br>Limit rental duration for casual users.
+
+         <br> Create annual membership promotion during peak season. (Seasonal promotion)
+
+         I also think that doing further studies and exploration in the following topics will help Cyclistic develop more effective methods in converting users.
+         <br><br>1) How can we utilize our different rideable bikes(Classic bike, E-bike) to attract users?
+         2) Number of one-day/two-day passes purchased by casual users.
+         3) What can we do to attract casual users living near Cyclistic bike users to get annual passes?
+
+
+         </p>
+
+         <h4 class="text-center"> ✽ Appendix </h4>
+         <p class="text-center" class="proj_tit"> <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing"> Google Sheet link that details the analysis </a></p>
+         <p class="text-center" class="proj_tit"> <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs"> Kaggle raw dataset used for this analysis </a></p>
+      </div>
+      <div class="row mt-3 pt-2 border-top">
+         <div class="col-6">
+            <p class ="smallz">© Kirsten Pevidal</p>
+         </div>
+         <div class="col-6">
+            <p class ="smallz text-right">
+               <a href="https://github.com/kirsnaut" class="text-dark"> <span class="fab fa-github-alt fa-sm"></span> Github</a> <a  href="https://www.linkedin.com/in/kirsten-pevidal-121421129/" class="text-dark"><span class="fab fa-linkedin fa-sm"></span> LinkedIn</a> <a  href="https://twitter.com/kapevidal" class="text-dark"><span class="fab fa-twitter fa-sm"></span> Twitter</a>
+            </p>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/10aea60dfb.js" crossorigin="anonymous"></script>
+      <script src="js\main.js" type="text/javascript"></script>
+   </body>
+</html>

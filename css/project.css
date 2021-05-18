@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+@font-face {
+  font-family: 'Neon';
+  src: URL('Neon.ttf') format('truetype');
+}
+
+.nav-item{
+	font-family: 'Roboto Mono', cursive !important;
+}
+
+.container{
+  padding-left:250px!important;
+  padding-right:250px!important;
+}
+
+/*text classes*/
+.titles{
+font-family: 'Roboto Mono', cursive !important;
+color: black;
+font-size: 30px;
+padding-top:30px;
+padding-bottom:30px;
+}
+
+.subtitles{
+
+font-family: 'Roboto Mono', cursive !important;
+color: black;
+font-size: 20px;
+padding-bottom: 40px;
+}
+
+.headingz{
+
+font-family: 'Roboto Mono', cursive !important;
+color: black;
+font-size: 20px;
+
+}
+
+.smallz{
+	font-family: 'Neon', cursive !important;
+	font-size: 15px;
+}
+
+.for_desc_proj{
+	font-family: 'Lato', cursive !important;
+  text-justify: inter-word;
+
+	font-size: 17px;
+	padding-bottom: 5px;
+  padding-top: 10px;
+  line-height: 1.6;
+}
+
+.for_desc_bullet{
+	font-family: 'Lato', cursive !important;
+  text-justify: inter-word;
+
+	font-size: 17px;
+	padding-bottom: 5px;
+  line-height: 1.6;
+}
+
+.for_desc > a{
+	font-weight: bold;
+}
+
+
+.carousel {
+  max-width:500px;
+  max-height:380px;
+  padding-bottom:20px;
+  margin-left: 70px;
+}
+
+.carousel-control-prev .carousel-control-prev-icon{
+filter: invert(100%);
+margin-right:50px;
+
+}
+
+.carousel-control-next .carousel-control-next-icon{
+filter: invert(100%);
+margin-left:50px;
+}
+
+.carousel-indicators .active{
+    background-color: black;
+}
+
+.carousel-item img {
+  width:100%!important;
+  height:100%!important;
+}
+
+body{
+  font-family: 'Roboto Mono', cursive !important;
+  overflow: auto;
+  padding:50px;
+	min-height:75rem;
+	background:white;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	z-index: -10;
+	height: 100%;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera*/
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.navbar-brand{
+	font-family:'Neon',cursive!important;
+	font-size:30px!important;
+	font-weight: bold;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #f5f5f5;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #444444;
+    top: 5px;
+}
+
+
+
+@media (max-width: 900px)
+{
+  .container{
+    padding-left:10px!important;
+    padding-right:10px!important;
+  }
+
+  .carousel {
+  margin-left: 0px;
+  }
+  
+  .navbar-collapse {
+        position: fixeds;
+        top: 54px;
+        left: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.4s ease;
+        //display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: 100%;
+        margin-left: 50%;
+        left: 50%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show {
+      margin-top:10px;
+      border: 2px solid black;
+      left: 0;
+    }
+
+  	body{
+  		padding:10px;
+  	}
+
+}

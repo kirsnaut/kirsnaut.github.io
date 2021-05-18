@@ -1,272 +1,225 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	  <title>Glassdoor Data Analyst Job Listing</title>
-	  <meta charset="utf-8">
-	  <meta name="author" content="kirsnaut">
-	  <meta name="description" content="Personal Website">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-		<link rel="manifest" href="icon/site.webmanifest">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/animation.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
-	 </head>
-		<style>
-
-		.jumbotron{
-			margin-top:-250px;
-		}
-		body{
-			overflow: auto;
-		}
-
-    .titles
-    {
-      font-size: 30px;
-    }
-
-		@media (max-width: 900px)
-		{
-			.jumbotron{
-				margin-top: 0px;
-				margin-left:0px;
-				margin-right:0px;
-
-			}
-
-			.sticky-top{
-				position:static;
-				margin-top: -30px;
-			}
-			.carousel {
-			  margin-left: 0px;
-			}
-
-		}
-
-		</style>
-	<body>
-
-    <nav id="dog" class="navbar navbar-fixed-left sticky-top navbar-light">
-
-			<a class="navbar-brand" href="\..">
-			<!--img src="img/logow3.png" width="35" height="35"-->
-			Kirsnaut
-
-			</a>
-							<ul class="nav navbar-nav ml-auto">
-
-
-							<li class="nav-item active">
-								<a class="nav-link" href="repository">
-									Projects
-								</a>
-
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link" href="about">
-									About
-								</a>
-							</li>
-							<li class="nav-item ">
-								<a class="nav-link" href="mailto:kapevidal@gmail.com">
-									Email Me
-								</a>
-							</li>
-
+   <head>
+      <title>Glassdoor Data Analyst Job Listing</title>
+      <meta charset="utf-8">
+      <meta name="author" content="kirsnaut">
+      <meta name="description" content="Personal Website">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+      <link rel="manifest" href="icon/site.webmanifest">
+      <link rel="stylesheet" type="text/css" href="css/project.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+   </head>
+   <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <a class="navbar-brand" href="\..">Kirsnaut</a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                  About
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://github.com/kirsnaut" class="text-dark"> <span class="fab fa-github-alt fa-sm"></span> Github</a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://www.linkedin.com/in/kirsten-pevidal-121421129/" class="text-dark"><span class="fab fa-linkedin fa-sm"></span> Linkedin</a>
+               </li>
+               <li class="nav-item">
+                  <a class ="nav-link" href="https://twitter.com/kapevidal" class="text-dark"><span class="fab fa-twitter fa-sm"></span> Twitter</a>
+               </li>
             </ul>
-          </div>
-        </nav>
-
-				<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-        <main role="main" class="container">
-         <div class="jumbotron jumbo_text bg-transparent">
-						<h1 class="titles text-center"> Glassdoor Data Analyst Job Listings in NY State </h1>
-						<h1 class="subtitles text-center"> (Updated: 2021-05-02) by Kirsten Pevidal </h1>
-						<h2 class = headingz> Context <h2>
-							<p class="for_desc_proj">
-								Looking to start a career in Data Analytics but you have no idea what sector or industry will be on-demand?
-							  As someone who wants to become a data analyst in NY, I am curious about the job prospect in data analytics in the state of NY during the COVID19 pandemic.
-								<br><br>It would be nice if there is some sort of "guide" that can help someone decide which industries are thriving and how much you can expect to get paid for.
-								So, I decided to try making one for my first Data Analytics spreadsheet project!
-							</p>
-
-							<h2 class = headingz> The Dataset <h2>
-								<p class="for_desc_proj">
-									I found a <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs">dataset</a> in Kaggle that contains scraped data of Data Analyst Job listing posted in Glassdoor. The dataset was scraped during July 2020 and only job postings that were up during that time period were scraped.
-									<br><br>
-									This is a very ideal dataset as it was scraped to help job seekers during the COVID19 Pandemic which is really helpful. Kudos to the user.
-
-									<br><br>This dataset contains 2253 job listings from Glassdoor.
-									I cleaned the data to only include the 345 job listings from NY State. I also manually cleaned some of the data. Technically, data with empty cells should be removed but I decided to fill up cells with no data as best of my knowledge. I gathered and splitted some of the columns
-									in order to have the following:
-									 <ul class="for_desc_bullet">
-											  <li>Job Title</li>
-											  <li>Company Name</li>
-											  <li>Minimum, Median, Maximum Salary (in USD)</li>
-												<li>Rating (from 1-5)</li>
-												<li>Company Size</li>
-												<li>Industry</li>
-												<li>Sector</li>
-									</ul>
-								</p>
-
-						  <h2 class = headingz> What To Look At? <h2>
-							<p class="for_desc_proj"> To determine the best choices we have to explore, I am going to check for the <a class="font-weight-bold">top industries and sectors in job listings and the salary distributions</a>. Mainly,
-								I will focus at the top industries as they offer the best-of-both worlds when it comes to job availability and salary.
-								<br><br>It would be also a good idea to look at the <a class="font-weight-bold">ratings</a>, <a class="font-weight-bold">company size</a>, and <a class="font-weight-bold">location</a> of each job listings.
-							</p>
-							<p class="for_desc_proj"><a class="font-weight-bold">Constraints:</a> this analysis does not include information about job listings that have work-from-home availability. Also, this analysis does not include job experience level yet. I am planning to look into that for futhur studies.
-							Right now, I will rely on salary ranges to make an approximation for skill and experience level of each job listing.</p>
-
-							<p class="for_desc_proj">Having all of these considered, I will do my best to still produce a work that can effectively help an undecided data analyst decide his/her path in Data Analytics.
-							</p>
-
-							<h2 class = headingz> Sectors & Industries <h2>
-								<p class="for_desc_proj"> Approximately 82% of the job listings are from these 5 sectors.
-								The top 5 sectors are respectively as follows: <a class="font-weight-bold">Information Technology</a>, <a class="font-weight-bold">Business Services</a>, <a class="font-weight-bold">Health Care</a>,
-								<a class="font-weight-bold">Finance</a>, & <a class="font-weight-bold">Media</a>.</p>
-								<img src="img/project_image/top_sectors.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-								<p class="for_desc_proj text-center"> There are 65 companies in the top industries.</p>
-								<img src="img/project_image/number_of_companies.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-
-							<p class="for_desc_proj"> I also managed to list all the industries under these sectors. You can view the chart beloow to see all the industries with job listings under each sectors:
-							</p>
-							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						  <ol class="carousel-indicators">
-						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-						  </ol>
-						  <div class="carousel-inner">
-						    <div class="carousel-item active">
-						      <img class="rounded mx-auto d-block" src="img/project_image/information_technology.png" alt="First slide">
-						    </div>
-						    <div class="carousel-item">
-						      <img class="rounded mx-auto d-block" src="img/project_image/business_service.png" alt="Second slide">
-						    </div>
-						    <div class="carousel-item">
-						      <img class="rounded d-block" src="img/project_image/health_care.png" alt="Third slide">
-						    </div>
-								<div class="carousel-item">
-						      <img class="rounded mx-auto d-block" src="img/project_image/finance.png" alt="Fourth slide">
-						    </div>
-								<div class="carousel-item">
-						      <img class="rounded mx-auto d-block" src="img/project_image/media.png" alt="Fifth slide">
-						    </div>
-						  </div>
-						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
-						  </a>
-						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-						  </a>
-						</div>
-						<p class="for_desc_proj"> Moving on, the top 5 industries with the most job listings are as follows:  <a class="font-weight-bold">IT Services</a>, <a class="font-weight-bold">Health Care Services & Hospitals</a>, <a class="font-weight-bold">Staffing & Consulting</a>, <a class="font-weight-bold">Investment Banking and Asset Management</a>, & <a class="font-weight-bold">Consulting</a>.
-						These industries make up 52% of all job listings. That is 198 of 345 total job listings.
-						</p>
-
-							<img src="img/project_image/Top_5_Industries_Per_Job_Listing.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc_proj">
-									These industries have a lot of opening so entry-levels like me will want to take advantage of this and explote these industries. You can view all the industries and sectors <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs">here</a>.
-							</p>
-
-							<h2 class = headingz> Salary Distribution <h2>
-							<p class="for_desc_proj"> The data analyst job listings from NY state have a salary range from <a class="font-weight-bold">$53,000 to $91,000</a>.
-							Based on <a href="https://www.payscale.com/research/US/Job=Data_Analyst/Salary">Payscale.com</a>, the average data analyst salary in the US is <a class="font-weight-bold">$61,329</a>.
-							The median salary in the Glassdoor dataset for NY State is <a class="font-weight-bold">$72,051</a> ─ that is <a class="font-weight-bold">17.4% higher</a> than the national median salary for data analyst.
-							</p>
-							<img src="img/project_image/salary_listing.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc_proj">The chart below shows the salary distribution for the top industries:</p>
-              <img src="img/project_image/Salary_Per_Top_Industry.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc_proj">
-								Based on Salary.com, the salary range for Entry-Level/Jr. Data Analyst roles is $52,837 to $67,752.
-								That is close to the minimum salary of the companies at the top industries, which is $55,538. Apart from having more listings, the top industries appear to also have competitive compensation.</p>
-							<p class="for_desc_proj">If you are interested in a particular industry or sector, you can take a peak at the full listing <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing">here</a> and feel free to use the dashboard as well.
-
-							</p>\
-
-							<h2 class = headingz> Ratings <h2>
-							<p class="for_desc_proj"> The ratings used are from the Glassdoor dataset, so the ratings of the company will be the rating they had during July 2020.
-							Still, it is interesting to see how companies in the top industries do.
-							Here, we can see that the Staffing & Outsourcing industry has the highest mean rating.
-						  </p>
-							<img src="img/project_image/rating.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-
-							<p class="for_desc_proj"> Overall, the median rating is very helpful
-							as we can get an idea of the distribution of ratings of companies in each industry.
-							The overall median rating of the dataset is 3.71, which is above average and basically has a good reception.
-
-						  </p>
-
-							<h2 class = headingz> Locations <h2>
-							<p class="for_desc_proj">90% of the job listings are in Manhattan (New York, NY). That is not surprising as NYC is a top destination for data career.
-							Unfortunately, I do not have the data to determine which listings offers WFH (work-from-home).
-							That will be a good thing to consider for further studies since
-							there are a lot of discussions online about permanent WFH option for employees post-pandemic.
-							</p>
-							<img src="img/project_image/location.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-							<p class="for_desc_proj"> Maybe in the future, location won't be a big of a deal anymore if WFH will be normalized.
-
-							<h2 class = headingz> Company Size <h2>
-							<p class="for_desc_proj">I assigned a grouping system for company sizes to simplify the process of analyzing it. The technique led me to discover that there are 8 size groups that are present in the dataset. They are as follow: </p>
-							<ul class="for_desc_bullet">
-									 <li>Group 0 → Unknown Size </li>
-									 <li>Group 1 → 1 to 50 employees</li>
-									 <li>Group 2 → 51 to 200 employees</li>
-									 <li>Group 3 → 200 to 500 employees</li>
-									 <li>Group 4 → 501 to 1000 employees</li>
-									 <li>Group 5 → 1001 to 5000 employees</li>
-									 <li>Group 6 → 5000 to 10000 employees</li>
-									 <li>Group 7 → 10000+ employees</li>
-						 </ul>
-						 <p class="for_desc_proj">There are total of 233 companies in the dataset. 65 of the total companies have job listings in the dataset.</p>
-						 <img src="img/project_image/company_size.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
-						 <p class="for_desc_proj">The company size in the top industries varies. Whether you prefer working in a start-up company or big corporation, there are listings for all company sizes.</p>
-
-							<h2 class = headingz> Final Thoughts <h2>
-							<p class="for_desc_proj"> In conclusion the job prospect in the top industries is nice. There are a lot of job listings available and the compensation is competitive.
-								The average rating of each top industry is above average, so expect to have a good experience. The locations are mostly in NYC and either you want to work in a start-up or a large company, there are a couple of options for you out there.
-							</p>
-
-								<p class="for_desc_proj">As this is my first data analytic project,
-								there are couple of things to improve on and some interesting topics that I uncovered for further studies.
-								I appreciate receiving any feedbacks so please feel free to email me for feedback.</p>
-
-							<h4 class="text-center"> ✽ Appendix </h4>
-							<p class="text-center" class="proj_tit"> <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing"> Google Sheet link that details the analysis </a></p>
-							<p class="text-center" class="proj_tit"> <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs"> Kaggle raw dataset used for this analysis </a></p>
-
-						<p class ="text-center blaster">
-
-							<a href="https://github.com/kirsnaut" class="text-dark"> <span class="fab fa-github-alt fa-sm"></span> Github</a>
-							<a  href="https://www.linkedin.com/in/kirsten-pevidal-121421129/" class="text-dark"><span class="fab fa-linkedin fa-sm"></span> LinkedIn</a>
-							<a  href="https://twitter.com/kapevidal" class="text-dark"><span class="fab fa-twitter fa-sm"></span> Twitter</a>
-						</p>
-						<p class ="text-center smallz">© Kirsten Pevidal</p>
-
-
-          </div>
-
-        </main>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://kit.fontawesome.com/10aea60dfb.js" crossorigin="anonymous"></script>
-        <script src="js\main.js" type="text/javascript"></script>
-
-    </body>
+         </div>
+      </nav>
+      <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <div class=container>
+         <h1 class="titles text-center"> Glassdoor Data Analyst Job Listings in NY State </h1>
+         <h1 class="subtitles text-center"> (Updated: 2021-05-02) by Kirsten Pevidal </h1>
+         <h2 class = headingz>
+         Context
+         <h2>
+         <p class="for_desc_proj">
+            Looking to start a career in Data Analytics but you have no idea what sector or industry will be on-demand?
+            As someone who wants to become a data analyst in NY, I am curious about the job prospect in data analytics in the state of NY during the COVID19 pandemic.
+            <br><br>It would be nice if there is some sort of "guide" that can help someone decide which industries are thriving and how much you can expect to get paid for.
+            So, I decided to try making one for my first Data Analytics spreadsheet project!
+         </p>
+         <h2 class = headingz>
+         The Dataset
+         <h2>
+         <p class="for_desc_proj">
+            I found a <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs">dataset</a> in Kaggle that contains scraped data of Data Analyst Job listing posted in Glassdoor. The dataset was scraped during July 2020 and only job postings that were up during that time period were scraped.
+            <br><br>
+            This is a very ideal dataset as it was scraped to help job seekers during the COVID19 Pandemic which is really helpful. Kudos to the user.
+            <br><br>This dataset contains 2253 job listings from Glassdoor.
+            I cleaned the data to only include the 345 job listings from NY State. I also manually cleaned some of the data. Technically, data with empty cells should be removed but I decided to fill up cells with no data as best of my knowledge. I gathered and splitted some of the columns
+            in order to have the following:
+         <ul class="for_desc_bullet">
+            <li>Job Title</li>
+            <li>Company Name</li>
+            <li>Minimum, Median, Maximum Salary (in USD)</li>
+            <li>Rating (from 1-5)</li>
+            <li>Company Size</li>
+            <li>Industry</li>
+            <li>Sector</li>
+         </ul>
+         </p>
+         <h2 class = headingz>
+         What To Look At?
+         <h2>
+         <p class="for_desc_proj"> To determine the best choices we have to explore, I am going to check for the <a class="font-weight-bold">top industries and sectors in job listings and the salary distributions</a>. Mainly,
+            I will focus at the top industries as they offer the best-of-both worlds when it comes to job availability and salary.
+            <br><br>It would be also a good idea to look at the <a class="font-weight-bold">ratings</a>, <a class="font-weight-bold">company size</a>, and <a class="font-weight-bold">location</a> of each job listings.
+         </p>
+         <p class="for_desc_proj"><a class="font-weight-bold">Constraints:</a> this analysis does not include information about job listings that have work-from-home availability. Also, this analysis does not include job experience level yet. I am planning to look into that for futhur studies.
+            Right now, I will rely on salary ranges to make an approximation for skill and experience level of each job listing.
+         </p>
+         <p class="for_desc_proj">Having all of these considered, I will do my best to still produce a work that can effectively help an undecided data analyst decide his/her path in Data Analytics.
+         </p>
+         <h2 class = headingz>
+         Sectors & Industries
+         <h2>
+         <p class="for_desc_proj"> Approximately 82% of the job listings are from these 5 sectors.
+            The top 5 sectors are respectively as follows: <a class="font-weight-bold">Information Technology</a>, <a class="font-weight-bold">Business Services</a>, <a class="font-weight-bold">Health Care</a>,
+            <a class="font-weight-bold">Finance</a>, & <a class="font-weight-bold">Media</a>.
+         </p>
+         <img src="img/project_image/Glassdoor/top_sectors.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj text-center"> There are 65 companies in the top industries.</p>
+         <img src="img/project_image/Glassdoor/number_of_companies.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj"> I also managed to list all the industries under these sectors. You can view the chart beloow to see all the industries with job listings under each sectors:
+         </p>
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="rounded mx-auto d-block" src="img/project_image/Glassdoor/information_technology.png" alt="First slide">
+               </div>
+               <div class="carousel-item">
+                  <img class="rounded mx-auto d-block" src="img/project_image/Glassdoor/business_service.png" alt="Second slide">
+               </div>
+               <div class="carousel-item">
+                  <img class="rounded d-block" src="img/project_image/Glassdoor/health_care.png" alt="Third slide">
+               </div>
+               <div class="carousel-item">
+                  <img class="rounded mx-auto d-block" src="img/project_image/Glassdoor/finance.png" alt="Fourth slide">
+               </div>
+               <div class="carousel-item">
+                  <img class="rounded mx-auto d-block" src="img/project_image/Glassdoor/media.png" alt="Fifth slide">
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+         <p class="for_desc_proj"> Moving on, the top 5 industries with the most job listings are as follows:  <a class="font-weight-bold">IT Services</a>, <a class="font-weight-bold">Health Care Services & Hospitals</a>, <a class="font-weight-bold">Staffing & Consulting</a>, <a class="font-weight-bold">Investment Banking and Asset Management</a>, & <a class="font-weight-bold">Consulting</a>.
+            These industries make up 52% of all job listings. That is 198 of 345 total job listings.
+         </p>
+         <img src="img/project_image/Glassdoor/Top_5_Industries_Per_Job_Listing.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">
+            These industries have a lot of opening so entry-levels like me will want to take advantage of this and explote these industries. You can view all the industries and sectors <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs">here</a>.
+         </p>
+         <h2 class = headingz>
+         Salary Distribution
+         <h2>
+         <p class="for_desc_proj"> The data analyst job listings from NY state have a salary range from <a class="font-weight-bold">$53,000 to $91,000</a>.
+            Based on <a href="https://www.payscale.com/research/US/Job=Data_Analyst/Salary">Payscale.com</a>, the average data analyst salary in the US is <a class="font-weight-bold">$61,329</a>.
+            The median salary in the Glassdoor dataset for NY State is <a class="font-weight-bold">$72,051</a> ─ that is <a class="font-weight-bold">17.4% higher</a> than the national median salary for data analyst.
+         </p>
+         <img src="img/project_image/Glassdoor/salary_listing.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">The chart below shows the salary distribution for the top industries:</p>
+         <img src="img/project_image/Glassdoor/Salary_Per_Top_Industry.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">
+            Based on Salary.com, the salary range for Entry-Level/Jr. Data Analyst roles is $52,837 to $67,752.
+            That is close to the minimum salary of the companies at the top industries, which is $55,538. Apart from having more listings, the top industries appear to also have competitive compensation.
+         </p>
+         <p class="for_desc_proj">If you are interested in a particular industry or sector, you can take a peak at the full listing <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing">here</a> and feel free to use the dashboard as well.
+         <h2 class = headingz>
+         Ratings
+         <h2>
+         <p class="for_desc_proj"> The ratings used are from the Glassdoor dataset, so the ratings of the company will be the rating they had during July 2020.
+            Still, it is interesting to see how companies in the top industries do.
+            Here, we can see that the Staffing & Outsourcing industry has the highest mean rating.
+         </p>
+         <img src="img/project_image/Glassdoor/rating.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj"> Overall, the median rating is very helpful
+            as we can get an idea of the distribution of ratings of companies in each industry.
+            The overall median rating of the dataset is 3.71, which is above average and basically has a good reception.
+         </p>
+         <h2 class = headingz>
+         Locations
+         <h2>
+         <p class="for_desc_proj">90% of the job listings are in Manhattan (New York, NY). That is not surprising as NYC is a top destination for data career.
+            Unfortunately, I do not have the data to determine which listings offers WFH (work-from-home).
+            That will be a good thing to consider for further studies since
+            there are a lot of discussions online about permanent WFH option for employees post-pandemic.
+         </p>
+         <img src="img/project_image/Glassdoor/location.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj"> Maybe in the future, location won't be a big of a deal anymore if WFH will be normalized.
+         <h2 class = headingz>
+         Company Size
+         <h2>
+         <p class="for_desc_proj">I assigned a grouping system for company sizes to simplify the process of analyzing it. The technique led me to discover that there are 8 size groups that are present in the dataset. They are as follow: </p>
+         <ul class="for_desc_bullet">
+            <li>Group 0 → Unknown Size </li>
+            <li>Group 1 → 1 to 50 employees</li>
+            <li>Group 2 → 51 to 200 employees</li>
+            <li>Group 3 → 200 to 500 employees</li>
+            <li>Group 4 → 501 to 1000 employees</li>
+            <li>Group 5 → 1001 to 5000 employees</li>
+            <li>Group 6 → 5000 to 10000 employees</li>
+            <li>Group 7 → 10000+ employees</li>
+         </ul>
+         <p class="for_desc_proj">There are total of 233 companies in the dataset. 65 of the total companies have job listings in the dataset.</p>
+         <img src="img/project_image/Glassdoor/company_size.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <p class="for_desc_proj">The company size in the top industries varies. Whether you prefer working in a start-up company or big corporation, there are listings for all company sizes.</p>
+         <h2 class = headingz>
+         Final Thoughts
+         <h2>
+         <p class="for_desc_proj"> In conclusion the job prospect in the top industries is nice. There are a lot of job listings available and the compensation is competitive.
+            The average rating of each top industry is above average, so expect to have a good experience. The locations are mostly in NYC and either you want to work in a start-up or a large company, there are a couple of options for you out there.
+         </p>
+         <p class="for_desc_proj">As this is my first data analytic project,
+            there are couple of things to improve on and some interesting topics that I uncovered for further studies.
+            I appreciate receiving any feedbacks so please feel free to email me for feedback.
+         </p>
+         <h4 class="text-center"> ✽ Appendix </h4>
+         <p class="text-center" class="proj_tit"> <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing"> Google Sheet link that details the analysis </a></p>
+         <p class="text-center" class="proj_tit"> <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs"> Kaggle raw dataset used for this analysis </a></p>
+      </div>
+      <div class="row mt-3 pt-2 border-top">
+         <div class="col-6">
+            <p class ="smallz">© Kirsten Pevidal</p>
+         </div>
+         <div class="col-6">
+            <p class ="smallz text-right">
+               <a href="https://github.com/kirsnaut" class="text-dark"> <span class="fab fa-github-alt fa-sm"></span> Github</a> <a  href="https://www.linkedin.com/in/kirsten-pevidal-121421129/" class="text-dark"><span class="fab fa-linkedin fa-sm"></span> LinkedIn</a> <a  href="https://twitter.com/kapevidal" class="text-dark"><span class="fab fa-twitter fa-sm"></span> Twitter</a>
+            </p>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/10aea60dfb.js" crossorigin="anonymous"></script>
+      <script src="js\main.js" type="text/javascript"></script>
+   </body>
 </html>

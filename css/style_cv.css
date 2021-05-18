@@ -130,7 +130,6 @@ padding-bottom:30px;
 }
 
 .titles_v2 {
-
   font-family: 'Space Mono', cursive !important;
   letter-spacing: 3px;
   color: black;
@@ -428,13 +427,18 @@ body{
   .ml12 {
     font-family: 'Roboto Mono', cursive !important;
     //font-weight: 700;
-    font-size: 75px;
+    font-size: 65px;
     padding-left:15px;
   }
 
   #profile, #work_history, #education, #projects{
     padding-left:15px;
     padding-right:15px;
+    margin-top:-40px;
+  }
+
+  .titles_v2{
+    font-size:26px;
   }
 
   .body_par{

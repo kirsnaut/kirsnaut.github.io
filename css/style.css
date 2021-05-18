@@ -23,9 +23,6 @@
 .nav-item:hover::after{width:100%;}
 .nav-link{padding:15px 5px;transition:0.2s;}
 
-.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
 
 #overlay {
   background-color: black;
@@ -105,20 +102,11 @@ html.idle #overlay {
 }
 
 
-
-/* On using dropdown menu (To right shift popuped) */
-.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
-  margin-top: 0px;
-  margin-right: -100px;
-}
-
 /*wallpaper by Michelle Simpson*/
 body{
 	overflow: hidden;
 	min-height:75rem;
 	padding-top:3.0rem;
-  padding-right: 50px;
-  padding-left: 50px;
 	background:white;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -195,7 +183,6 @@ body{
   }
 }
 
-//idle-animation
 
 #zzz{
 	color: white;
@@ -461,29 +448,6 @@ font-size: 25px;
   .ml11{
     font-size:80px!important;
   }
-  .navbar-collapse {
-           top: 0;
-           left: 0;
-           padding-left: 15px;
-           padding-right: 15px;
-           padding-bottom: 15px;
-           width: 75%;
-           height: 100%;
-       }
-
-       .navbar-collapse.collapsing {
-           left: -75%;
-           transition: height 0s ease;
-       }
-
-       .navbar-collapse.show {
-           left: 0;
-           transition: left 500ms ease-in-out;
-       }
-
-       .navbar-toggler.collapsed ~ .navbar-collapse {
-           transition: left 500ms ease-in-out;
-       }
 
 	body{
 		overflow: auto;

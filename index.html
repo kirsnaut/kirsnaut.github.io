@@ -424,7 +424,7 @@
             </div>
          </div>
       </div>
-      <div class="text-center"><button class="btn btn-outline-dark" onclick="#" value="" >View all Projects. (In Progress)</button></div>
+      <div class="text-center"><button class="btn btn-outline-dark" onclick="viewProjects()" value="" >View all Projects. (In Progress)</button></div>
       </div>
 
       <div class="row mt-3 pt-2 border-top">
@@ -453,6 +453,10 @@
            function emailMe() {
                window.location = "mailto:kapevidal@gmail.com"
              };
+
+             function viewProjects() {
+                 window.location = "projects"
+               };
 
              $(document).ready(function(){
              $(document).scroll(function(evt){

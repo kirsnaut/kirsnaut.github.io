@@ -6,11 +6,11 @@
       <meta name="author" content="kirsnaut">
       <meta name="description" content="Personal Website">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-      <link rel="manifest" href="icon/site.webmanifest">
-      <link rel="stylesheet" type="text/css" href="css/project.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+      <link rel="manifest" href="../icon/site.webmanifest">
+      <link rel="stylesheet" type="text/css" href="../css/project.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
    </head>
@@ -41,6 +41,14 @@
          </div>
       </nav>
       <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" aria-current="page">Home</li>
+          <li class="breadcrumb-item" aria-current="page">Projects</li>
+          <li class="breadcrumb-item active" aria-current="page">Cyclistic Bike Sharing</li>
+        </ol>
+      </nav>
+
       <div class=container>
          <h1 class="titles text-center"> Cyclistic Bike Sharing </h1>
          <h1 class="subtitles text-center"> (Updated: 2021-05-08) by Kirsten Pevidal </h1>
@@ -130,9 +138,9 @@
          I decided that I will focus my analysis in ride length by day of week and by month. I also included focusing in montlhy total rides.
 
          <br><br> After visualizing our cleaned dataset and removing noisy data, I first verified there are more annual members total rides than casual users rides (1.9million vs. 1.3million). It is pretty interesting to see how strong the bike-sharing program is to casuals. </p>
-         <img src="img/project_image/Cyclistic/number_of_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <img src="../img/project_image/Cyclistic/number_of_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
          <p class="for_desc_proj">Diving deeper, we will see that there are more casual user rides in the weekend and more member rides in the weekday. It is likely that annual members uses bikes to go to their work although Cyclistic bikes are usually used for leisure. There is nothing really impactful that I noticed but I thought of an interesting topic for further exploration which I will discuss later.</p>
-         <img src="img/project_image/Cyclistic/daily_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <img src="../img/project_image/Cyclistic/daily_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
          <p class="for_desc_proj">
          Things start to look more interesting after looking at how users' ride duration use of Cyclistic bikes differ.
          Looking at the duration per day of the week, an emerging trend can be seen.
@@ -141,24 +149,24 @@
          some sort of system or program that will reward users based on how much and how long they use Cyclistic bikes.
          I deduced that including this incentive-like program to the annual membership package will make it more appealing to casual users to try out annual membership passes.
          </p>
-         <img src="img/project_image/Cyclistic/daily_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <img src="../img/project_image/Cyclistic/daily_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
          <p class="for_desc_proj">
          This pattern can be even seen by looking at the monthly average ride duration.
          </p>
-         <img src="img/project_image/Cyclistic/monthly_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <img src="../img/project_image/Cyclistic/monthly_avg_ride_length.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
          <p class="for_desc_proj">
          Another important thing I notice is the pattern I see at the monthly total rides. There is a very noticeable spike around July until September, during summer.
          </p>
-         <img src="img/project_image/Cyclistic/monthly_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
+         <img src="../img/project_image/Cyclistic/monthly_total_rides.png" class="rounded mx-auto d-block img-thumbnail" alt="Responsive image">
          <p class="for_desc_proj">anana</p>
          <h2 class = headingz>
          Final Thoughts
          <h2>
          <p class="for_desc_proj">
-         All things considered, I managed to come up with three  suggestions that may help Cyclistic effectively and efficiently convert casual users into annual memberships.
-         <br><br>Create reward system based on ride durations for annual members.
+         All things considered, I managed to come up with three suggestions that may help Cyclistic effectively and efficiently convert casual users into annual memberships.
+         <br><br>Create reward/incentive system based on ride durations for annual members. (similar to Uber Pass Reward System)
 
-         <br>Limit rental duration for casual users.
+         <br> Set a limit to rental duration for casual users.
 
          <br> Create annual membership promotion during peak season. (Seasonal promotion)
 
@@ -171,8 +179,8 @@
          </p>
 
          <h4 class="text-center"> ✽ Appendix </h4>
-         <p class="text-center" class="proj_tit"> <a href="https://docs.google.com/spreadsheets/d/1V2dCVSGhx5LK8gWtkxiQPC2SVhyfs4sOgQpw8OdrUEo/edit?usp=sharing"> Google Sheet link that details the analysis </a></p>
-         <p class="text-center" class="proj_tit"> <a href="https://www.kaggle.com/andrewmvd/data-analyst-jobs"> Kaggle raw dataset used for this analysis </a></p>
+         <p class="text-center" class="proj_tit"> <a href="#"> Datasets from previous 12 months (TBA) </a></p>
+         <p class="text-center" class="proj_tit"> <a href="#"> TBA </a></p>
       </div>
       <div class="row mt-3 pt-2 border-top">
          <div class="col-6">
@@ -188,6 +196,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       <script src="https://kit.fontawesome.com/10aea60dfb.js" crossorigin="anonymous"></script>
-      <script src="js\main.js" type="text/javascript"></script>
+      <script src="..\js\main2.js" type="text/javascript"></script>
    </body>
 </html>
